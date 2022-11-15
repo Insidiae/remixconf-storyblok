@@ -14,8 +14,8 @@ import Grid from "./components/Grid";
 import Page from "./components/Page";
 import Teaser from "./components/Teaser";
 import HeroSection from "./components/HeroSection";
-// import AllArticles from "./components/AllArticles";
-// import Article from "./components/Article";
+import AllArticles from "./components/AllArticles";
+import Article from "./components/Article";
 
 import styles from "./styles/app.css";
 
@@ -25,8 +25,8 @@ const components = {
 	teaser: Teaser,
 	page: Page,
 	hero_section: HeroSection,
-	// all_articles: AllArticles,
-	// article: Article,
+	all_articles: AllArticles,
+	article: Article,
 };
 
 storyblokInit({
